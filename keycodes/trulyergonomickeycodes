@@ -1,0 +1,6 @@
+// Swaps Tab and minus
+
+xkb_keycodes {
+  <TAB> = 61;
+  <AB10> = 23;
+};
