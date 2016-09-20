@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 partial alphanumeric_keys
 xkb_symbols "se" {
 
-    name[Group1]="Swedish";
+    name[Group1]="Linus Swedish";
 
     key <AE05>	{ [         5,    percent,     EuroSign,         cent ]	};
     key <AE11>	{ [      plus,   question,    backslash, questiondown ]	};
@@ -89,5 +89,51 @@ xkb_symbols "typematrix" {
 
    key <I172> { [ odiaeresis, Odiaeresis, oslash, Ooblique ] };
    key <LSGT> { [ odiaeresis, Odiaeresis, oslash, Ooblique ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "trulyergonomic" {
+
+   include "linus(basic)"
+
+   name[Group1]="Linus (Truly Ergonomic)";
+
+   key <AD01> { [ aring, Aring, braceleft ] };
+   key <AD02> { [ comma, semicolon, bracketleft ] };
+   key <AD03> { [ period, colon, bracketright ] };
+   key <AD04> { [ p, P, braceright ] };
+   key <AD05> { [ y, Y, asterisk ] };
+   key <AD06> { [ f, F, bar ] };
+   key <AD07> { [ g, G, dollar ] };
+   key <AD08> { [ c, C, ampersand ] };
+   key <AD09> { [ r, R ] };
+   key <AD10> { [ l, L ] };
+   key <AD11> { [ dead_diaeresis, dead_circumflex, dead_tilde ] };
+   key <AD12> { [ odiaeresis, Odiaeresis, oslash, Ooblique ] };
+
+   key <AC01> { [ a, A, apostrophe ] };
+   key <AC02> { [ o, O, parenleft ] };
+   key <AC03> { [ e, E, parenright ] };
+   key <AC04> { [ u, U, quotedbl] };
+   key <AC05> { [ i, I, slash ] };
+   key <AC06> { [ d, D, less ] };
+   key <AC07> { [ h, H, greater ] };
+   key <AC08> { [ t, T ] };
+   key <AC09> { [ n, N ] };
+   key <AC10> { [ s, S, ssharp ] };
+   key <AC11> { [ minus, underscore ] };
+   key <BKSL> { [ z, Z ] };
+
+   key <LSGT> { [ less, greater, bar ] };
+   key <AB01> { [ adiaeresis, Adiaeresis, ae, AE ] };
+   key <AB02> { [ q, Q, guillemotleft ] };
+   key <AB03> { [ j, J, guillemotright ] };
+   key <AB04> { [ k, K ] };
+   key <AB05> { [ x, X, asciitilde ] };
+   key <AB06> { [ b, B, asciicircum ] };
+   key <AB07> { [ m, M ] };
+   key <AB08> { [ w, W ] };
+   key <AB09> { [ v, V ] };
+   key <AB10> { [ dead_diaeresis, dead_circumflex, dead_tilde ] };
 };
 
