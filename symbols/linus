@@ -66,7 +66,7 @@ xkb_symbols "svdvorak" {
    key <AB01> { [ adiaeresis, Adiaeresis, ae, AE ] };
    key <AB02> { [ q, Q, less ] };
    key <AB03> { [ j, J, greater ] };
-   key <AB04> { [ k, K ] };
+   key <AB04> { [ k, K, grave ] };
    key <AB05> { [ x, X, asciitilde ] };
    key <AB06> { [ b, B, asciicircum ] };
    key <AB07> { [ m, M ] };
@@ -124,7 +124,7 @@ xkb_symbols "typematrix" {
    key <AB01> { [ adiaeresis, Adiaeresis, ae, AE ] };
    key <AB02> { [ q, Q, less, guillemotleft ] };
    key <AB03> { [ j, J, greater, guillemotright ] };
-   key <AB04> { [ k, K ] };
+   key <AB04> { [ k, K, grave ] };
    key <AB05> { [ x, X, asciitilde, dead_tilde ] };
    key <AB06> { [ b, B ] };
    key <AB07> { [ m, M ] };
@@ -174,7 +174,7 @@ xkb_symbols "trulyergonomic" {
    key <AB01> { [ adiaeresis, Adiaeresis, ae, AE ] };
    key <AB02> { [ q, Q, guillemotleft ] };
    key <AB03> { [ j, J, guillemotright ] };
-   key <AB04> { [ k, K ] };
+   key <AB04> { [ k, K, grave ] };
    key <AB05> { [ x, X, asciitilde ] };
    key <AB06> { [ b, B, asciicircum ] };
    key <AB07> { [ m, M ] };
